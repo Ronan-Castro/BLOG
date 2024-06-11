@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "sMv4eYk9CA20M2tRsD+SX7LBfSjE0pzNosC3r40yvfI=",
+  "Source": "BlogAPI",
+  "BasePath": "_content/BlogAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BlogAPI\\wwwroot",
+      "Source": "BlogAPI",
+      "ContentRoot": "C:\\Users\\Ronan\\OneDrive\\Área de Trabalho\\Curso Balta\\blog API\\BlogAPI\\wwwroot\\",
+      "BasePath": "_content/BlogAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

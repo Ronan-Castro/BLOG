@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\BlogApi\\BLOG\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{639C758D-580F-470E-9E2C-C10FD42E34AF}|BlogAPI.csproj|c:\\blogapi\\blog\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{639C758D-580F-470E-9E2C-C10FD42E34AF}|BlogAPI.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639C758D-580F-470E-9E2C-C10FD42E34AF}|BlogAPI.csproj|c:\\blogapi\\blog\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639C758D-580F-470E-9E2C-C10FD42E34AF}|BlogAPI.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639C758D-580F-470E-9E2C-C10FD42E34AF}|BlogAPI.csproj|c:\\blogapi\\blog\\buildspec.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{639C758D-580F-470E-9E2C-C10FD42E34AF}|BlogAPI.csproj|solutionrelative:buildspec.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639C758D-580F-470E-9E2C-C10FD42E34AF}|BlogAPI.csproj|c:\\blogapi\\blog\\data\\blogdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{639C758D-580F-470E-9E2C-C10FD42E34AF}|BlogAPI.csproj|solutionrelative:data\\blogdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "buildspec.yml",
+              "DocumentMoniker": "C:\\BlogApi\\BLOG\\buildspec.yml",
+              "RelativeDocumentMoniker": "buildspec.yml",
+              "ToolTip": "C:\\BlogApi\\BLOG\\buildspec.yml",
+              "RelativeToolTip": "buildspec.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-06-12T17:54:28.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\BlogApi\\BLOG\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\BlogApi\\BLOG\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T17:07:24.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\BlogApi\\BLOG\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\BlogApi\\BLOG\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-12T17:06:59.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlogDataContext.cs",
+              "DocumentMoniker": "C:\\BlogApi\\BLOG\\Data\\BlogDataContext.cs",
+              "RelativeDocumentMoniker": "Data\\BlogDataContext.cs",
+              "ToolTip": "C:\\BlogApi\\BLOG\\Data\\BlogDataContext.cs",
+              "RelativeToolTip": "Data\\BlogDataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:54:59.655Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"

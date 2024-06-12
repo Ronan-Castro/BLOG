@@ -28,6 +28,7 @@ phases:
     commands:
       - echo Build completado em `date`
       - echo Enviando a imagem Docker para o Amazon ECR...
+      - docker run -d -p 8080:80 $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - printf '[{"name":"exp-code-pipeline","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json

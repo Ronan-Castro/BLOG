@@ -17,7 +17,6 @@ phases:
       - REPOSITORY_URI=654654387556.dkr.ecr.us-east-1.amazonaws.com/blog
       - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
       - IMAGE_TAG=${COMMIT_HASH:=latest}
-      - echo Restaurando dependências do .NET...
       - dotnet restore
   build:
     commands:
@@ -31,7 +30,6 @@ phases:
       - echo Enviando a imagem Docker para o Amazon ECR...
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
-      - echo Escrevendo o arquivo de definições...
       - printf '[{"name":"exp-code-pipeline","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 artifacts:
   files: imagedefinitions.json

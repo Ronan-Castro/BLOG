@@ -2761,11 +2761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\blog API\\BlogAPI\\BlogAPI.csproj",
+      "projectUniqueName": "C:\\BlogApi\\BLOG\\BlogAPI\\BlogAPI.csproj",
       "projectName": "BlogAPI",
-      "projectPath": "C:\\blog API\\BlogAPI\\BlogAPI.csproj",
+      "projectPath": "C:\\BlogApi\\BLOG\\BlogAPI\\BlogAPI.csproj",
       "packagesPath": "C:\\Users\\Ronan\\.nuget\\packages\\",
-      "outputPath": "C:\\blog API\\BlogAPI\\obj\\",
+      "outputPath": "C:\\BlogApi\\BLOG\\BlogAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
